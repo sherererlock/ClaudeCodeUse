@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "允许所有git命令"
+    ]
+  }
+}
