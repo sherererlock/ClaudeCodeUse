@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "允许所有git命令"
+      "Read(./**)",
+      "Write(./**)",
+      "Edit(./**)"
+    ],
+    "deny": [
+      "Read(./.env*)"
     ]
   }
 }
