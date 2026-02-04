@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "hello_mcp": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        ".\\hello_mcp_server.py"
+      ],
+      "env": {}
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}"
+      }
+    }
+  }
+}
