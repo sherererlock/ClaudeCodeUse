@@ -1,5 +1,8 @@
 {
   "enabledMcpjsonServers": [
     "hello_mcp"
+  ],
+  "disabledMcpjsonServers": [
+    "github"
   ]
 }
