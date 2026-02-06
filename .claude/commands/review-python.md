@@ -8,5 +8,7 @@ allowed-tools: Read, Grep, Glob, Bash(pylint:*)
 请仔细阅读并分析`@$1`中的所有Python代码。
 **静态检查初步分析结果：**
 首先打印文件路径：
-!`echo $1`
+!`echo $0`
+接着使用pylint检查代码：
+!`pylint $0`
 
