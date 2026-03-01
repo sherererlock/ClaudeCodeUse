@@ -1,8 +1,10 @@
 {
   "enabledMcpjsonServers": [
-    "hello_mcp"
+    "hello_mcp",
+    "github"
   ],
   "disabledMcpjsonServers": [
     "github"
-  ]
+  ],
+  "enableAllProjectMcpServers": true
 }
